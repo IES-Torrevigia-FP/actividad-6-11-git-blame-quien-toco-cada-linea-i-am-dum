@@ -1,0 +1,23 @@
+4c828feb (Andrés Yakymchuk 2026-04-15 09:47:38 +0200  9)   return a - b - 1; // BUG intencionado
+
+commit 4c828febcfee9f2dfad8000e70c0766524bfb560
+Author: Andrés Yakymchuk <yigor07@gmail.com>
+Date:   Wed Apr 15 09:47:38 2026 +0200
+
+    Añade función multiplicar
+
+diff --git a/calculadora.js b/calculadora.js
+index d536281..d89754f 100644
+--- a/calculadora.js
++++ b/calculadora.js
+@@ -6,7 +6,7 @@ function sumar(a, b) {
+ }
+ 
+ function restar(a, b) {
+-  return a - b;
++  return a - b - 1; // BUG intencionado
+ }
+ 
+ function multiplicar(a, b) {
+
+Se introdujo cuando editamos el script y insertamos el bug

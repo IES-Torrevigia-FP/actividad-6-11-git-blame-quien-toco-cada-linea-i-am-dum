@@ -1,0 +1,6 @@
+0bb689e Añade TODO para función dividir
+4c828fe Añade función multiplicar
+6e15bca Añade función multiplicar
+5af8d11 Añade funciones sumar y restar
+b20eeeb add deadline
+1628555 Initial commit
